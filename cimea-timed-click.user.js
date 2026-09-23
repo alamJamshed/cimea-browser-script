@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         CIMEA Timed Click
 // @namespace    https://github.com/alamJamshed/cimea-browser-script
-// @version      0.1.0
+// @version      0.1.1
 // @description  Clicks a chosen button at an exact time (Europe/Rome), synced to the server's clock.
-// @match        *://*.cimea.it/*
-// @match        *://cimea.it/*
+// @match        *://mywallet.cimea-diplome.it/*
+// @downloadURL  https://raw.githubusercontent.com/alamJamshed/cimea-browser-script/main/cimea-timed-click.user.js
+// @updateURL    https://raw.githubusercontent.com/alamJamshed/cimea-browser-script/main/cimea-timed-click.user.js
 // @grant        none
 // @run-at       document-idle
 // @noframes

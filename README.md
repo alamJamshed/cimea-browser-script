@@ -1,6 +1,6 @@
 # cimea-browser-script
 
-A Firefox userscript that clicks a chosen button on the CIMEA site at an exact time (Italian time), in as many tabs as you like, each tab with its own time.
+A Firefox userscript that clicks a chosen button on the CIMEA site (`mywallet.cimea-diplome.it`) at an exact time (Italian time), in as many tabs as you like, each tab with its own time.
 
 ## How it works
 
@@ -13,7 +13,7 @@ A Firefox userscript that clicks a chosen button on the CIMEA site at an exact t
 
 1. Install [Violentmonkey](https://addons.mozilla.org/firefox/addon/violentmonkey/) or [Tampermonkey](https://addons.mozilla.org/firefox/addon/tampermonkey/) in Firefox.
 2. Open the raw [`cimea-timed-click.user.js`](https://raw.githubusercontent.com/alamJamshed/cimea-browser-script/main/cimea-timed-click.user.js). The extension will offer to install it.
-3. If the CIMEA page isn't on `cimea.it`, add its domain to the `@match` lines at the top of the script.
+3. The script runs only on `mywallet.cimea-diplome.it`. The extension checks GitHub for updates automatically.
 
 ## Recommended Firefox settings
 
